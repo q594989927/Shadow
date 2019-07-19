@@ -20,8 +20,8 @@ apply from: "buildScripts/gradle/maven.gradle"
 
 task clean(type: Delete) {
     delete rootProject.buildDir
-    dependsOn gradle.includedBuild('coding').task(':checks:clean')
-    dependsOn gradle.includedBuild('coding').task(':lint:clean')
+//    dependsOn gradle.includedBuild('coding').task(':checks:clean')
+//    dependsOn gradle.includedBuild('coding').task(':lint:clean')
     dependsOn gradle.includedBuild('core').task(':gradle-plugin:clean')
     dependsOn gradle.includedBuild('core').task(':common:clean')
     dependsOn gradle.includedBuild('core').task(':loader:clean')

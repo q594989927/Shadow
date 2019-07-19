@@ -6,11 +6,11 @@ if (!System.getenv().containsKey("ANDROID_HOME")) {
             "注意：新增环境变量后，一般不会立即生效，最简单的办法是重启电脑。")
 }
 
-includeBuild 'projects/sdk/coding'
+//includeBuild 'projects/sdk/coding'
 includeBuild 'projects/sdk/core'
 includeBuild 'projects/sdk/dynamic'
 
-includeTest()
+//includeTest()
 includeSample()
 
 def includeTest() {
