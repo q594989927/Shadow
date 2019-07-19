@@ -20,6 +20,6 @@ android {
 }
 
 dependencies {
-    implementation 'com.tencent.shadow.coding:lint'
+//    implementation 'com.tencent.shadow.coding:lint'
 }
 

@@ -30,7 +30,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'commons-io:commons-io:2.5'
 
-    implementation 'com.tencent.shadow.coding:lint'
+//    implementation 'com.tencent.shadow.coding:lint'
     compileOnly project(':common')
     api project(':load-parameters')
 }
